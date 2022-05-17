@@ -10,6 +10,8 @@ compresser.py can be run on any dataset that is split into 4 directories: color,
 
 generate_dataset.py is a script that needs to be inputed into a already existing project. Please first install https://gitlab.com/ssteidl/habitat-ros according to instruction, and the paste this script into habitat-ros/spring_simulation folder. Please be sure that you already used obj2glb.py and point to correct data path on line 156. Also it is adviced to create your own scene as in lines 30-42 and 108-131. In configs/tasks/pointnav.yaml change the parameters for each sensor as required. My whole working directory of habitat-ros can be found at https://gitlab.com/ferbrjan/habitat_dataset_create/-/tree/main/.
 
+kinect_data.py is a script used for extracting RGB-D data with specific timestamps.
+
 ob2glb.py needs to be edited on line 6 to point to the correct path with .json and .obj files. The folder that line 6 reffers to need to be structured as: folder -> categories_subfolders {chair, table, ...} -> nameofcategory_obj, {corresponding .object_config.json files for each object in _obj folder} -> .obj files for each object. Image can be found below:
 
 <img width="333" alt="Snímek obrazovky 2022-05-15 v 16 32 05" src="https://user-images.githubusercontent.com/74875970/168478195-973ab842-d08a-4f2c-836a-f9930b43a387.png">
