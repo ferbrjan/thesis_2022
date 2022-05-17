@@ -12,6 +12,8 @@ generate_dataset.py is a script that needs to be inputed into a already existing
 
 kinect_data.py is a script used for extracting RGB-D data with specific timestamps.
 
+merge_mesh.py is a script used for merging multiple point clouds from Hololens 2. Only necesarry thing is to use the two command line arguments, first one aiming to the path of directory containing the point clouds, second one specifying the output location.
+
 ob2glb.py needs to be edited on line 6 to point to the correct path with .json and .obj files. The folder that line 6 reffers to need to be structured as: folder -> categories_subfolders {chair, table, ...} -> nameofcategory_obj, {corresponding .object_config.json files for each object in _obj folder} -> .obj files for each object. Image can be found below:
 
 <img width="333" alt="Snímek obrazovky 2022-05-15 v 16 32 05" src="https://user-images.githubusercontent.com/74875970/168478195-973ab842-d08a-4f2c-836a-f9930b43a387.png">
