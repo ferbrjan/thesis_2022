@@ -25,4 +25,4 @@ subsample_dataset.py requires changing multiple lines in order to be used. First
 
 Some working data used in the thesis can be found at https://gitlab.com/ferbrjan/wroking-data .
 
-
+All input data for COLMAP and SPSG can be found at .... 
