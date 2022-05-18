@@ -23,6 +23,6 @@ To use remove_blurry.py and rotate_every_xth.py please use -h / --help to read a
 subsample_dataset.py requires changing multiple lines in order to be used. Firstly, the files identifier on line 5, needs to point to directory structured the same as for compresser.py. In this directory a subsampled subdirectory needs to be created, and there the subsampled data will be transfered. Only specify the paths on lines 10,11,17,18,23 and 24. Moreover please copy the intrinsics folder from the original dataset into the subsampled datset to ensure completeness of the data.
 
 
-Some working data used in the thesis can be found at https://gitlab.com/ferbrjan/wroking-data or https://drive.google.com/drive/folders/192y1_N5HWbP_AeI6yipqIYMmAJMOwzgY.
+Some working data used in the thesis can be found at https://drive.google.com/drive/folders/1ejStqB6-gOtkVNYFEGBEbJ-IO_qqAPn5?usp=sharin or https://drive.google.com/drive/folders/192y1_N5HWbP_AeI6yipqIYMmAJMOwzgY.
 
 All input data for COLMAP and SPSG can be requested at ferbrjan@fel.cvut.cz or michal.polic@cvut.cz.
